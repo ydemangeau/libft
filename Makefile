@@ -68,7 +68,8 @@ SRCS= ft_memset.c \
 	  ft_sqrt.c \
 	  ft_isblank.c \
 	  ft_strrev.c \
-	  ft_swap.c 
+	  ft_swap.c \
+	  ft_get_next_line.c
 
 OBJECTS= $(SRCS:.c=.o)
 

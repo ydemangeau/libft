@@ -13,9 +13,11 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stdio.h>
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
+# define BUFF_SIZE 441
 
 typedef struct		s_list
 {
@@ -87,5 +89,6 @@ int					ft_sqrt(int nb);
 int					ft_power(int nb, int power);
 void				ft_swap(int *a, int *b);
 char				*ft_strrev(char *str);
+int					ft_get_next_line(const int fd, char **line);
 
 #endif
